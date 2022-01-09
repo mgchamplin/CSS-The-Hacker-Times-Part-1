@@ -1,1 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
+
+body {
+  font-family: Source Sans Pro;
+  background-color: #eee;
+}
+
+.newspaper-container {
+  width: 700px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em 3em 3em 3em;
+  border-radius: 2em;
+  box-shadow: : 10px 10px #888888;
+}
+
+/* NEWS HEADER */
+header {
+  font-family: Abril Fatface;
+}
+
+h1 {
+    text-align: center;
+    font-size:3em;
+}  
+
+
+/* NAV BAR & LINKS */
+nav {
+    border-top :1px solid;
+    border-bottom :1px solid;
+    border-color:#dddddd;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+display: inline;
+padding-right: 10px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+  
+  a:hover {
+    color: red;
+}
+
+
+/* MAIN ARTICLE */
+h2 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: Roboto Slab;
+  font-weight: bolder;
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+
+}
+
+img.mainpic {
+    text-align: center;
+    width: 100%;
+}  
+
+h5 {
+  color: red;
+  font-weight: bold;
+}
+
+main > p {
+    color: black;
+    text-align: justify;
+}
+
+/* 2-COLUMN ARTICLES */
+.more-articles {
+    border-top :1px solid;
+    border-color:#dddddd; 
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 49%;
+    padding: 2px 2px 2px 2px;
+}
+
+section > p {
+    color: black;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}  
+
+img.subpic {
+    text-align: center;
+    width: 95%;
+  
+}
+
+/* 3-COLUMN (GRID) ARTICLES */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+    border-top :1px solid;
+    border-color:#dddddd;
+}
+.short-article {
+    padding: 1px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;}
+
+div > p {
+    color: black;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+    
+/* FOOTER */
+footer {
+    border-top :1px solid;
+    border-color:#dddddd;
+}
+
+footer a {
+    color: rgb(8, 14, 8);
+    text-decoration: none;
+    width:100%;
+    padding-right: 100px;
+
+}
+    
